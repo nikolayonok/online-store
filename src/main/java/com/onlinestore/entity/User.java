@@ -1,4 +1,18 @@
 package com.onlinestore.entity;
 
-public class User {
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
+
+import javax.persistence.Entity;
+
+@EqualsAndHashCode
+@Entity
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class User extends AbstractEntity {
+
+
 }
