@@ -14,4 +14,7 @@ import javax.persistence.Entity;
 @AllArgsConstructor
 
 public class Product extends AbstractEntity {
+    private String name;
+    private String description;
+    private int price;
 }

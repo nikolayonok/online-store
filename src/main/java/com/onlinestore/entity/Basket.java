@@ -14,4 +14,7 @@ import javax.persistence.Entity;
 @AllArgsConstructor
 
 public class Basket extends AbstractEntity {
+    private long used_id;
+    private int count;
+    private int cost;
 }

@@ -14,4 +14,5 @@ import javax.persistence.Entity;
 @AllArgsConstructor
 
 public class Order extends AbstractEntity {
+    private long basket_id;
 }

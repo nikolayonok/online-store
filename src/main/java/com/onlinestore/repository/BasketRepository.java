@@ -1,4 +1,7 @@
 package com.onlinestore.repository;
 
-public interface BasketRepository {
+import com.onlinestore.entity.Basket;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface BasketRepository extends JpaRepository<Basket, Long> {
 }
