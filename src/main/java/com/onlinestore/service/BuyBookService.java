@@ -1,4 +1,4 @@
 package com.onlinestore.service;
 
-public class ProductService {
+public class BuyBookService {
 }

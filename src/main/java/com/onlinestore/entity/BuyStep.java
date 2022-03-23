@@ -7,15 +7,16 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 
-@EqualsAndHashCode
+import java.time.LocalDate;
+
+@EqualsAndHashCode(callSuper = true)
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+public class BuyStep extends AbstractEntity {
 
-public class Roles extends AbstractEntity {
-    private long user;
-    private long admin;
-    private long anonymous;
+    private LocalDate dataStepBeg;
+    private LocalDate dataStepEnd;
 
 }

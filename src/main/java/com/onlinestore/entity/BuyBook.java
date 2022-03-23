@@ -7,13 +7,13 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 
-@EqualsAndHashCode
+
+@EqualsAndHashCode(callSuper = true)
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+public class BuyBook extends AbstractEntity {
+    private int amount;
 
-public class BasketProduct extends AbstractEntity {
-    private long product_id;
-    private int count;
 }
